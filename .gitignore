@@ -2,3 +2,6 @@
 venv
 __pycache__
 vars.env
+media
+static
+db.sqlite3

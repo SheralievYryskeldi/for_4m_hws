@@ -5,7 +5,13 @@
     <title>Book_details</title>
 </head>
 <body>
+<style>
+    .shows_button{
+        margin-top: 40px;
+    }
+</style>
 <img src="{{ show.image.url }}" alt="">
 <h2>{{ book.title }}</h2>
+<a href="/books/" class="btn btn-secondary shows_button">Back</a>
 </body>
 </html>
